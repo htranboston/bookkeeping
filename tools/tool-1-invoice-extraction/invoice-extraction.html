@@ -1,0 +1,25 @@
+<div class="tool-wrapper">
+    <div class="tool-header">
+        <h2>Invoice Extraction</h2>
+        <p>Extract key data from invoice images or PDFs automatically.</p>
+    </div>
+
+    <div class="tool-content">
+        <div class="input-section">
+            <label for="invoice-upload">Upload Invoice:</label>
+            <input type="file" id="invoice-upload" accept=".pdf,.jpg,.png">
+            <button id="upload-btn" class="btn-primary">Upload & Process</button>
+        </div>
+        
+        <div class="output-section">
+            <h3>Extracted Data:</h3>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <div class="tool-footer">
+        <button class="btn-primary" id="process-btn">Process</button>
+        <button class="btn-secondary" id="reset-btn">Reset</button>
+        <button class="btn-secondary" id="export-btn">Export Results</button>
+    </div>
+</div>
